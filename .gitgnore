@@ -1,0 +1,19 @@
+cat << 'EOF' > .gitignore
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# ROS / Colcon logs
+*.log
+
+# Editor configs & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+EOF
